@@ -1,0 +1,21 @@
+{
+  "name": "roman-converter-backend",
+  "version": "1.0.0",
+  "description": "Roman to Arabic Converter Backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Roman",
+    "Arabic",
+    "Converter"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "roman-numerals": "^2.0.0"
+  }
+}

@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.input-container {
+  margin: 20px 0;
+}
+
+.convert-button {
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.convert-button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: #ff4136;
+  margin: 10px 0;
+}
+
+.result {
+  color: #0074d9;
+  margin: 10px 0;
+}
