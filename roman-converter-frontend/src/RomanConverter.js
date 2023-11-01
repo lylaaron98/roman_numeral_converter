@@ -27,19 +27,21 @@ function RomanConverter() {
   };
 
   return (
-    <div>
+    <div className="container">
       <h1>Roman Numeric Converter</h1>
-      <div>
+      <div className="input-container">
         Roman Numeral:{" "}
         <input
           type="text"
           value={romanNumeral}
           onChange={(e) => setRomanNumeral(e.target.value)}
         />
-        <button onClick={convertToArabic}>Convert</button>
+        <button className="convert-button" onClick={convertToArabic}>
+          Convert
+        </button>
       </div>
+      <div className="result">Arabic Number: {arabicNumber}</div>
       {error && <div className="error">{error}</div>}
-      {arabicNumber && <div>Arabic Number: {arabicNumber}</div>}
     </div>
   );
 }

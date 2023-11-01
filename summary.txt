@@ -1,0 +1,38 @@
+Summary Documentation: Roman to Arabic Converter
+Overview
+The Roman to Arabic Converter is a web application that allows users to convert Roman numerals to their corresponding Arabic numeral representations. It consists of a backend built using Node.js and an API that performs the conversion, as well as a frontend created using React for user interaction.
+
+Development Process
+Backend Development
+* 		Setting Up the Backend
+    * Initialize a Node.js project.
+    * Install the required dependencies, including Express and CORS.
+    * Set up the Express server to handle requests and responses.
+    * Implement the conversion logic for converting Roman numerals to Arabic numerals.
+    * Handle error cases and respond appropriately.
+* 		Building the API
+    * Create an endpoint that accepts a Roman numeral as a query parameter.
+    * Perform error handling for invalid or missing input.
+    * Use the 'roman-numerals' library to handle the conversion process.
+    * Return the converted Arabic numeral or an error message based on the input.
+Frontend Development
+* 		Setting Up the Frontend
+    * Create a new React application.
+    * Design the user interface with input fields for Roman numerals and a Convert button.
+    * Implement state management for the input and output fields.
+* 		Fetching Data from the Backend
+    * Create a function to handle fetching data from the backend API.
+    * Handle response data and errors appropriately.
+* 		Displaying Data and Errors
+    * Update the user interface to display the converted Arabic numeral or error messages.
+    * Handle various scenarios, such as successful conversions, invalid input, and failed requests.
+* 		Styling and Beautifying the Interface
+    * Apply CSS styling to improve the visual appeal of the application.
+    * Customize the appearance of input fields, buttons, and result displays.
+Deployment and Testing
+* 		Deployment
+    * Deploy the backend and frontend applications to hosting platforms.
+    * Ensure that the server is accessible and the frontend interacts correctly with the backend.
+* 		Testing and Debugging
+    * Test the application for various use cases and edge cases.
+    * Debug and resolve any issues related to data conversion, network requests, or user interface rendering.
